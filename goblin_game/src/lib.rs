@@ -25,7 +25,7 @@ impl ISprite2D for Player {
 
         Self {
             hp: 100,
-            speed: 400.0,
+            speed: 1000.0,
             angular_speed: std::f64::consts::PI,
             base,
         }
