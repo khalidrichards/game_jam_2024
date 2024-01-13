@@ -1,0 +1,13 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+
+[libraries]
+linux.debug.x86_64 =     "res://../goblin_game/target/debug/libgoblin_game.so"
+linux.release.x86_64 =   "res://../goblin_game/target/release/libgoblin_game.so"
+windows.debug.x86_64 =   "res://../goblin_game/target/debug/goblin_game.dll"
+windows.release.x86_64 = "res://../goblin_game/target/release/goblin_game.dll"
+macos.debug =            "res://../goblin_game/target/debug/libgoblin_game.dylib"
+macos.release =          "res://../goblin_game/target/release/libgoblin_game.dylib"
+macos.debug.arm64 =      "res://../goblin_game/target/debug/libgoblin_game.dylib"
+macos.release.arm64 =    "res://../goblin_game/target/release/libgoblin_game.dylib"
