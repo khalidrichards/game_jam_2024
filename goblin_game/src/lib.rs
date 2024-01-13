@@ -25,15 +25,7 @@ impl ISprite2D for Player {
 
         Self {
             hp: 100,
-<<<<<<< HEAD
-<<<<<<< HEAD
             speed: 1000.0,
-=======
-            speed: 400.0,
->>>>>>> d9ec382 (Wrapping up the base project. We can iterate and use this to build our project)
-=======
-            speed: 1000.0,
->>>>>>> 9fcd837 (Adding first scene stuff)
             angular_speed: std::f64::consts::PI,
             base,
         }
