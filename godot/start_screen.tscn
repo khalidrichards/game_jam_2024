@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ftvyxhwh5b5x"]
+
+[node name="Player" type="Player"]
+
+[node name="Button" type="Button" parent="."]
+offset_left = 426.0
+offset_top = 79.0
+offset_right = 698.0
+offset_bottom = 242.0
+text = "Journey into the Dungeon..."
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 431.0
+offset_top = 299.0
+offset_right = 703.0
+offset_bottom = 462.0
+text = "Journey Another Time..."

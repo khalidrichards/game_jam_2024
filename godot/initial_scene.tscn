@@ -3,9 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://bnw1rgnck0tr7" path="res://icon.svg" id="1_4kg3l"]
 
 [node name="Player" type="Player"]
-position = Vector2(302, 176)
+position = Vector2(198, 200)
 texture = ExtResource("1_4kg3l")
 
 [node name="Player" type="Player" parent="."]
 
 [node name="Player2" type="Player" parent="."]
+
+[node name="Player3" type="Player" parent="."]
