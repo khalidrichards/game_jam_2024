@@ -1,11 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://lq7fn55bhedy"]
+[gd_scene load_steps=3 format=3 uid="uid://lq7fn55bhedy"]
 
-[ext_resource type="Texture2D" uid="uid://bnw1rgnck0tr7" path="res://icon.svg" id="1_4kg3l"]
+[ext_resource type="Texture2D" uid="uid://dskkwk2mlosqt" path="res://GoblinHex.png" id="1_uauxt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1rktk"]
+size = Vector2(57.5241, 63.6504)
 
 [node name="Player" type="Player"]
-position = Vector2(302, 176)
-texture = ExtResource("1_4kg3l")
+position = Vector2(611, 334)
+scale = Vector2(3.39844, 3.26511)
+disable_mode = 2
 
-[node name="Player" type="Player" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.177, -6.7379)
+shape = SubResource("RectangleShape2D_1rktk")
+debug_color = Color(0.835294, 0.305882, 0.466667, 0.419608)
 
-[node name="Player2" type="Player" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-0.882762, 3.06268)
+scale = Vector2(1, 0.987477)
+texture = ExtResource("1_uauxt")
